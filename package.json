@@ -1,0 +1,17 @@
+{
+  "name": "slpf_scan",
+  "version": "1.0.0",
+  "description": "A simple scan application to test beacon location",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Takaite Takehara",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^2.6.3",
+    "eddystone-beacon-scanner": "^3.0.0",
+    "mongodb": "^2.2.25",
+    "noble": "^1.8.0"
+  }
+}
